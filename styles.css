@@ -1,9 +1,20 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url("styles/header.css");
+@import url("styles/banner.css");
 :root {
-    --cor-principal: #fff;
+    --cor-principal: #F3EEEA;
+    --font-principal: "Lato", sans-serif;
+    --font-secundaria: "Krona One", sans-serif;
+    --font-terciaria: "Montserrat", sans-serif;
+    --color-font-menu: #FFFFFF;
+    --color-menu-fundo: #FDA65D;
+    --color-font-texto: #f9c582;
+    --color-banner-fundo: #776B5D;
 }
 
-h1 {
-    color: coral;
+body {
+    color: var(--color-font);
     background-color: var(--cor-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
