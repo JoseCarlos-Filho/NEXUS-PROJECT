@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- folha de estilos -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="reset.css">
+    <!-- swiperjs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- Título da page -->
     <title>Nexus conexão com cavalos</title>
 </head>
+
 <body>
+    <!-- Header da page com menu responsivo -->
     <header class="cabecalho">
         <div class="container">
             <input class="container__botao" type="checkbox" name="" id="menu">
@@ -39,13 +44,46 @@
             <a href="#"><img class="container__imagem" src="assets/icons8-home.svg" alt="Home da Nexus"></a>
             <a href="#"><img class="container__imagem" src="assets/icons8-book-30.png" alt="História da Nexus"></a>
             <a href="#"><img class="container__imagem" src="assets/icons8-about.svg" alt="Sobre a Nexus"></a>
-            <a href="#"><img class="container__imagem" src="assets/icons8-new-contact-30.png" alt="Contato da Nexus"></a>
+            <a href="#"><img class="container__imagem" src="assets/icons8-new-contact-30.png"
+                    alt="Contato da Nexus"></a>
         </div>
     </header>
+
+    <!-- Banner da page -->
     <section class="banner">
-        <h2 class="banner__titulo">Conexão Nexus</h2>
-        <p class="banner__texto">Conheça a melhor conexão que pode fazer mágica em sua vida profissional e pessoal, conheça a conexão com cavalos através da metodologia Nexus!</p>
+        <h1 class="banner__titulo">Conexão Nexus</h1>
+        <p class="banner__texto">Conheça a melhor conexão que pode fazer mágica em sua vida profissional e pessoal,
+            conheça a conexão com cavalos através da metodologia Nexus!</p>
         <img class="banner__imagem" src="assets/logo-nexus-sembg.png" alt="Logo da nexus">
     </section>
+
+    <section class="carrossel">
+        <!-- Slider main container -->
+        <h2 class="carrossel__titulo">Faça sua conexão</h2>
+        
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+             <!-- If we need pagination -->
+             <div id="pagination" class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/Nexus1.jpeg" alt="imagem de conexão com cavalos do projeto Nexus"></div>
+                <div class="swiper-slide"><img src="assets/Nexus2.jpeg" alt="imagem de conexão com cavalos do projeto Nexus"></div>
+                <div class="swiper-slide"><img src="assets/Nexus3.jpeg" alt="imagem de conexão com cavalos do projeto Nexus"></div>
+                <div class="swiper-slide"><img src="assets/Nexus4.jpeg" alt="imagem de conexão com cavalos do projeto Nexus"></div>
+                <div class="swiper-slide"><img src="assets/Nexus5.jpeg" alt="imagem de conexão com cavalos do projeto Nexus"></div>
+                <div class="swiper-slide"><img src="assets/Nexus6.jpeg" alt="imagem de conexão com cavalos do projeto Nexus"></div>
+                ...
+            </div>
+           
+            <!-- If we need navigation buttons -->
+            <div id="prev" class="swiper-button-prev"></div>
+            <div id="next" class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/actions.js"></script>
 </body>
+
 </html>
