@@ -1,0 +1,9 @@
+
+:root {
+    --cor-principal: #fff;
+}
+
+h1 {
+    color: coral;
+    background-color: var(--cor-principal);
+}
