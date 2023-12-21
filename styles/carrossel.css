@@ -1,6 +1,6 @@
-/* .carrossel {
-    margin: 1em 0em;
-} */
+.carrossel {
+    margin: 0.5em;
+}
 .carrossel__titulo {
     color: var(--color-font-texto);
     font-family: var(--font-principal);
@@ -18,6 +18,7 @@
 }
 .swiper-slide img {
     width: 100%;
+    border-radius: 0.5em;
 }
 
 #prev, #next {
