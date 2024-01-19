@@ -20,7 +20,6 @@
     font-size: 14px;
 }
 
-
 video.depoimento__video::-internal-media-controls-download-button {
     display:none;
 }
@@ -36,5 +35,10 @@ video.depoimento__video::-webkit-media-controls-panel {
 .depoimento__video {
     width: 96vw;
     margin: 0.5em;
+    border-radius: 8px;
+}
+
+.conexao__imagem {
+    width: 100%;
     border-radius: 8px;
 }
