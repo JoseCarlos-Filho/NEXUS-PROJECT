@@ -1,0 +1,36 @@
+.footer {
+    text-align: center;
+    margin: 2em;
+}
+
+.footer__titulo {
+    color: var(--color-font-texto);
+    font-family: var(--font-principal);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0em 2em;
+}
+
+.footer__descricao {
+    color: var(--color-descricao);
+    margin: 1.5em 0em;
+    font-family: var(--font-secundaria);
+    font-size: 14px;
+}
+
+.footer__instagram {
+    margin-bottom: 1em;
+}
+
+.footer__copyright {
+    font-family: var(--font-terciaria);
+    color: var(--color-copyright);
+}
+
+.footer__ancora {
+    text-decoration: none;
+    color: var(--color-ancora);
+    font-weight: 500;
+}
