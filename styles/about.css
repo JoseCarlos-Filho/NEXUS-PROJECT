@@ -1,0 +1,5 @@
+.conexao__about {
+    color: var(--color-descricao);
+    margin: 1.5em 0em;
+    font-family: var(--font-terciaria);
+}
