@@ -3,6 +3,7 @@
 @import url("styles/banner.css");
 @import url("styles/carrossel.css");
 @import url("styles/depoimentos.css");
+@import url("styles/footer.css");
 
 :root {
     --cor-principal: #F3EEEA;
@@ -13,6 +14,9 @@
     --color-menu-fundo: #FDA65D;
     --color-font-texto: #f9c582;
     --color-banner-fundo: #776B5D;
+    --color-descricao: #B0A695;
+    --color-copyright: #776B5D;
+    --color-ancora: #6B240C;
 }
 
 body {
