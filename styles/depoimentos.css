@@ -1,17 +1,25 @@
-/* .depoimento {
-    margin: 0.5em;
-} */
+.container__conexao {
+    text-align: center;
+    margin: 1em;
+}
 
-
-.depoimento__titulo {
+.conexao__titulo {
     color: var(--color-font-texto);
     font-family: var(--font-principal);
     text-align: center;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
-    padding: 1em 0em 0.5em 0em;
+    margin-top: 2em;
 }
+
+.conexao__descricao {
+    color: var(--color-descricao);
+    margin: 1.5em 0em;
+    font-family: var(--font-secundaria);
+    font-size: 14px;
+}
+
 
 video.depoimento__video::-internal-media-controls-download-button {
     display:none;
