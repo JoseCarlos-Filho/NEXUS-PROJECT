@@ -1,6 +1,6 @@
 .container__conexao {
     text-align: center;
-    margin: 1em;
+    padding: 1em;
 }
 
 .conexao__titulo {
@@ -32,9 +32,12 @@ video.depoimento__video::-webkit-media-controls-panel {
     width: calc(100% + 30px); /* Adjust as needed */
 }
 
+.depoimentos {
+    text-align: center;
+}
+
 .depoimento__video {
-    width: 96vw;
-    margin: 0.5em;
+    width: 95%;
     border-radius: 8px;
 }
 
