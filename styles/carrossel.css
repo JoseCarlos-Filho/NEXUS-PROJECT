@@ -1,5 +1,5 @@
 .carrossel {
-    margin: 0.5em;
+    padding: 0.5em;
 }
 .carrossel__titulo {
     color: var(--color-font-texto);
