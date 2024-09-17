@@ -10,6 +10,7 @@
     <!-- swiperjs -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- Título da page -->
+    <script type="module" src="./js/index.js" defer></script>
     <title>Nexus conexão com cavalos</title>
 </head>
 
@@ -26,24 +27,24 @@
                     <a href="index.html" class="lista-menu__link">Home</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">História</a>
+                    <a href="history.html" class="lista-menu__link">História</a>
                 </li>
                 <li class="lista-menu__item">
                     <a href="aboutus.html" class="lista-menu__link">Sobre nós</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Notícias</a>
+                    <a href="contact.html" class="lista-menu__link">Contato</a>
                 </li>
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Contato</a>
-                </li>
+                <div class="banner_header">
+                    <img class="banner_header_nexus" src="./assets/novobanner.jpeg" alt="Banner de imagens Nexus">
+                </div>
             </ul>
         </div>
-        <div class="container">
+        <div class="container_icon">
             <a href="index.html"><img class="container__imagem" src="assets/icons8-home.svg" alt="Home da Nexus"></a>
-            <a href="#"><img class="container__imagem" src="assets/icons8-book-30.png" alt="História da Nexus"></a>
+            <a href="history.html"><img class="container__imagem" src="assets/icons8-book-30.png" alt="História da Nexus"></a>
             <a href="aboutus.html"><img class="container__imagem" src="assets/icons8-about.svg" alt="Sobre a Nexus"></a>
-            <a href="#"><img class="container__imagem" src="assets/icons8-new-contact-30.png"
+            <a href="contact.html"><img class="container__imagem" src="assets/icons8-new-contact-30.png"
                     alt="Contato da Nexus"></a>
         </div>
     </header>
@@ -66,17 +67,17 @@
             <div id="pagination" class="swiper-pagination"></div>
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide"><img src="assets/Nexus1.jpeg"
+                <div class="swiper-slide"><img src="https://www.googleapis.com/drive/v3/files/1RRcJXghi7YWcpBmeGJH7phnl76LeKTFN?alt=media&key=AIzaSyAYtPknyrLSWvWFxccht-fiw38iDb_jI84"
                         alt="imagem de conexão com cavalos do projeto Nexus"></div>
-                <div class="swiper-slide"><img src="assets/Nexus2.jpeg"
+                <div class="swiper-slide"><img src="https://www.googleapis.com/drive/v3/files/1bAknvwmZonGXjnZ5dpHN-i9CUspfqgvc?alt=media&key=AIzaSyAYtPknyrLSWvWFxccht-fiw38iDb_jI84"
                         alt="imagem de conexão com cavalos do projeto Nexus"></div>
-                <div class="swiper-slide"><img src="assets/Nexus3.jpeg"
+                <div class="swiper-slide"><img src="https://www.googleapis.com/drive/v3/files/1-SceDRJzaK3OSvQcgdc0vqIC2i13bdDt?alt=media&key=AIzaSyAYtPknyrLSWvWFxccht-fiw38iDb_jI84"
                         alt="imagem de conexão com cavalos do projeto Nexus"></div>
-                <div class="swiper-slide"><img src="assets/Nexus4.jpeg"
+                <div class="swiper-slide"><img src="https://www.googleapis.com/drive/v3/files/1Ef5Ij01FepHNv5_3dbUSyFMiE-uynfGl?alt=media&key=AIzaSyAYtPknyrLSWvWFxccht-fiw38iDb_jI84"
                         alt="imagem de conexão com cavalos do projeto Nexus"></div>
-                <div class="swiper-slide"><img src="assets/Nexus5.jpeg"
+                <div class="swiper-slide"><img src="https://www.googleapis.com/drive/v3/files/1fQ6ZJr7MML58IONjhe607-Fih9KabuBL?alt=media&key=AIzaSyAYtPknyrLSWvWFxccht-fiw38iDb_jI84"
                         alt="imagem de conexão com cavalos do projeto Nexus"></div>
-                <div class="swiper-slide"><img src="assets/Nexus6.jpeg"
+                <div class="swiper-slide"><img src="https://www.googleapis.com/drive/v3/files/1k1OnmYfyy0abxpdKMgfmlA7XfubEa-FD?alt=media&key=AIzaSyAYtPknyrLSWvWFxccht-fiw38iDb_jI84"
                         alt="imagem de conexão com cavalos do projeto Nexus"></div>
                 ...
             </div>
@@ -94,9 +95,17 @@
     </section>
 
     <section class="depoimentos">
-        <video class="depoimento__video" controls controlsList="nodownload">
-            <source type="video/mp4" src="https://www.googleapis.com/drive/v3/files/1ArUPH6jaFVsxbc9rzO5WyxlS6hVoEQQN?alt=media&key=AIzaSyAHJOgE15ThtwDdguHaAaXGfDhWeumwrEw">
-        </video>
+            <iframe 
+                src="https://www.youtube.com/embed/jVHWhPQeGtU?si=X6nixVAAieul6Un-" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; nodownload" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+        <!-- <video class="depoimento__video" controls controlsList="nodownload" width="560" height="315">
+            <source type="video/mp4" src="https://www.googleapis.com/drive/v3/files/1bzMd0wR4xxX1HvFPbYo1fHdIX1KASZY-?alt=media&key=AIzaSyAYtPknyrLSWvWFxccht-fiw38iDb_jI84">
+        </video> -->
     </section>
 
     <footer class="footer">
@@ -105,12 +114,13 @@
         <a href="https://www.instagram.com/conexaonexus/">
             <img class="footer__instagram" src="assets/icons8-instagram.svg" alt="Instagram rede social da nexus">
         </a>
+        <!-- <p class="footer__copyright">&copy; <a class="footer__ancora" href="https://www.linkedin.com/in/jose-carlos-front-end/" target="_blank" rel="noopener noreferrer">José Carlos Rodrigues Filho</a>. Todos os direitos reservados.</p> -->
         <p class="footer__copyright">&copy; <a class="footer__ancora" href="https://www.linkedin.com/in/jose-carlos-front-end/">José Carlos
-                Rodrigues Filho</a> todos os direitos reservados.</p>
+                Rodrigues Filho</a> todos os direitos reservados.
+        </p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="js/actions.js"></script>
 </body>
 
 </html>
