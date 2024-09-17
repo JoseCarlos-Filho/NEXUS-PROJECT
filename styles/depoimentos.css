@@ -20,7 +20,7 @@
     font-size: 14px;
 }
 
-video.depoimento__video::-internal-media-controls-download-button {
+/* video.depoimento__video::-internal-media-controls-download-button {
     display:none;
 }
 
@@ -29,17 +29,26 @@ video.depoimento__video::-webkit-media-controls-enclosure {
 }
 
 video.depoimento__video::-webkit-media-controls-panel {
-    width: calc(100% + 30px); /* Adjust as needed */
+    width: calc(100% + 30px); /* Adjust as needed
 }
+*/
 
 .depoimentos {
     text-align: center;
 }
 
-.depoimento__video {
-    width: 95%;
+/* .depoimento__video {
+    width: 95vw;
+    margin: auto;
+    border-radius: 8px;
+} */
+
+iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* Proporção de 16:9 */
     border-radius: 8px;
 }
+
 
 .conexao__imagem {
     width: 100%;
