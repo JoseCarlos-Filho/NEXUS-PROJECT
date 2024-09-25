@@ -5,6 +5,7 @@
 @import url("styles/depoimentos.css");
 @import url("styles/footer.css");
 @import url("styles/about.css");
+@import url("styles/contato.css");
 
 :root {
     --cor-principal: #F3EEEA;
