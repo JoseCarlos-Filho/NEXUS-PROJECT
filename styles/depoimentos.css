@@ -13,6 +13,15 @@
     margin-top: 2em;
 }
 
+.conexao__subtitulo {
+    color: var(--color-font-texto);
+    font-family: var(--font-principal);
+    margin-top: 1em;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
 .conexao__descricao {
     color: var(--color-descricao);
     margin: 1.5em 0em;
@@ -44,7 +53,7 @@ video.depoimento__video::-webkit-media-controls-panel {
 } */
 
 iframe {
-    width: 100%;
+    width: 96%;
     aspect-ratio: 16 / 9; /* Proporção de 16:9 */
     border-radius: 8px;
 }
