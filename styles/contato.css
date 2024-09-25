@@ -1,0 +1,33 @@
+.container__contato {
+    margin: 1em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.conexao__contato {
+    color: var(--color-descricao);
+    text-align: center;
+    padding: 1em;
+    font-family: var(--font-terciaria);
+}
+
+.contato__email {
+    text-decoration: none;
+    color: var(--color-font-texto);
+    font-family: var(--font-principal);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contato__titulo {
+    color: var(--color-font-texto);
+    font-family: var(--font-principal);
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 1em;
+}
+
+.contato__social {
+    margin: 2em 0em 1em 0em;
+}
