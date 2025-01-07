@@ -25,3 +25,28 @@
     display: none;
 }
 
+@media screen and (min-width: 1200px) {
+
+    .carrossel__titulo {
+        margin-bottom: 3rem;
+
+    }
+    .carrossel {
+        padding: 1em;
+    }
+    .carrossel__titulo {
+        font-size: 24px;
+    }
+
+    #pagination {
+        display: none;
+    }
+
+    .swiper {
+        height: 80vh;
+        width: 75vw;
+        box-shadow: var(--shadow);
+        border-radius: 0.5em;
+    }
+    
+}
