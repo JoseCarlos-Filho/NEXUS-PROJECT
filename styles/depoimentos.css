@@ -63,3 +63,56 @@ iframe {
     width: 100%;
     border-radius: 8px;
 }
+
+@media screen and (min-width: 1200px) {
+    .conexao__titulo {
+        font-size: 24px;
+        width: 50%;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .conexao__subtitulo {
+        font-size: 18px;
+        width: 50%;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .conexao__descricao {
+        font-size: 18px;
+        width: 50%;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .historia__content {
+        margin: 2rem 0rem 5rem 0rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .inverte {
+        flex-direction: row-reverse;
+    }
+
+    .conexao__about {
+        font-size: 24px;
+        width: 40%;
+    }
+
+    .conexao__imagem {
+        width: 50%;
+    }
+
+    .historia-img {
+        width: 40%;
+    }
+
+    .depoimentos {
+        width: 70%;
+    }
+    
+}
