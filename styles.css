@@ -20,6 +20,8 @@
     --color-copyright: #FFFFFF;
     --color-ancora: #6B240C;
     --color-font-hover:#FDA65D;
+    --btn-menu: #FDA65D;
+    --shadow: 0px 0px 20px #f4f2f2;
 }
 
 body {
@@ -33,6 +35,10 @@ body {
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+.ativa {
+    display: none;
 }
 
 @keyframes fadeInAnimation {
@@ -52,6 +58,12 @@ body {
     
     .banner_header {
         display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .ativa {
+        display: none;
     }
 
     .banner_header_nexus {
@@ -79,6 +91,10 @@ body {
     .lista-menu__item {
         background-color: inherit;
         margin-bottom: 1rem;
+        border: 1px solid var(--btn-menu) ;
+        padding: 0.5em;
+        border-radius: 10px;
+        box-shadow: 5px 1px 1px var(--btn-menu);
     }
 
     .lista-menu__link {
@@ -88,5 +104,62 @@ body {
     .lista-menu__item:hover {
         background: var(--color-font-hover);
         border-radius: 1em;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+   .container {
+    display: flex;
+    flex-direction: column;
+   }
+
+    .banner_header {
+        display: none;
+    }
+
+    .ativa {
+        display: block;
+        width: 95%;
+        height: 100vh;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .banner__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .banner__titulo {
+        text-align: center;
+        font-size: 48px;
+        color: var(--color-descricao);
+    }
+
+    .banner__texto {
+        text-align: center;
+         width: 50%;
+         font-size: 24px;
     }
 }
