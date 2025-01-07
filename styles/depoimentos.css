@@ -102,6 +102,7 @@ iframe {
 
     .conexao__about {
         font-size: 24px;
+        text-align: justify;
         width: 40%;
     }
 
