@@ -65,15 +65,17 @@ iframe {
 }
 
 @media screen and (min-width: 1200px) {
+
     .conexao__titulo {
-        font-size: 24px;
+        /* margin-bottom: 1rem; */
+        font-size: 32px;
         width: 50%;
         text-align: center;
         display: inline-block;
     }
 
     .conexao__subtitulo {
-        font-size: 18px;
+        font-size: 24px;
         width: 50%;
         text-align: center;
         display: inline-block;
@@ -87,7 +89,7 @@ iframe {
     }
 
     .historia__content {
-        margin: 2rem 0rem 5rem 0rem;
+        margin: 6rem;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -105,6 +107,7 @@ iframe {
 
     .conexao__imagem {
         width: 50%;
+        box-shadow: var(--shadow);
     }
 
     .historia-img {
