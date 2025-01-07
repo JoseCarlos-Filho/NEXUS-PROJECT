@@ -34,3 +34,19 @@
     color: var(--color-ancora);
     font-weight: 500;
 }
+
+@media screen and (min-width: 1200px) {
+    .footer__titulo {
+        margin-top: 4rem;
+        font-size: 24px;
+    }
+
+    .footer__descricao {
+        font-size: 18px;
+    }
+
+    .footer__redes {
+       width: 25%;
+       margin: 2rem 0rem 2rem 0rem;;
+    }
+}
