@@ -104,6 +104,7 @@ iframe {
         font-size: 20px;
         text-align: justify;
         width: 40%;
+        white-space: pre-line;
     }
 
     .conexao__imagem {
