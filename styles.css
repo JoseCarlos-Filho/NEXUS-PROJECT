@@ -114,6 +114,11 @@ body {
 }
 
 @media (min-width: 1200px) {
+    .scroll-efect,
+    .scroll-banner-efect {
+        visibility: hidden;
+    }
+
     body {
         display: flex;
         flex-direction: column;
