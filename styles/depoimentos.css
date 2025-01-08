@@ -118,5 +118,9 @@ iframe {
     .depoimentos {
         width: 70%;
     }
+
+    iframe {
+        box-shadow: var(--shadow);
+    }
     
 }
