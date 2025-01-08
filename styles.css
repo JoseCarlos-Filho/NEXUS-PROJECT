@@ -116,7 +116,11 @@ body {
 @media (min-width: 1200px) {
     .scroll-efect,
     .scroll-banner-efect,
-    .scroll-banner-img-efect {
+    .scroll-banner-img-efect,
+    .scroll-carrossel-titulo-efect,
+    .scroll-content-titulo-efect,
+    .scroll-content-descricao-efect,
+    .scroll-depoimentos-efect {
         visibility: hidden;
     }
 
