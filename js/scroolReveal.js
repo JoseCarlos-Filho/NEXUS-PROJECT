@@ -16,7 +16,7 @@ export default function scroolR() {
     {
         duration: 2000, 
         origin: 'left', 
-        distance: '500px',
+        distance: '100px',
         delay: 500
     });
 
@@ -24,7 +24,7 @@ export default function scroolR() {
     {
         duration: 2000, 
         origin: 'right', 
-        distance: '500px',
+        distance: '100px',
         delay: 1500
     });
 
@@ -51,7 +51,7 @@ export default function scroolR() {
     {
         duration: 2000, 
         origin: 'left', 
-        distance: '400px',
+        distance: '100px',
         delay: 500
     });
     
@@ -59,7 +59,7 @@ export default function scroolR() {
     {
         duration: 2000, 
         origin: 'right', 
-        distance: '400px',
+        distance: '100px',
         delay: 1000
     });
 
@@ -67,7 +67,7 @@ export default function scroolR() {
     {
         duration: 2000, 
         // origin: 'right', 
-        distance: '400px',
+        distance: '100px',
         delay: 1500
     });
 }
